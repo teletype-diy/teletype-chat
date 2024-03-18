@@ -1,0 +1,25 @@
+{
+  "name": "teletype-chat",
+  "main": "./lib/teletype-chat",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "teletype-chat:toggle"
+  },
+  "repository": "https://github.com/atom/teletype-chat",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "consumedServices": {
+      "teletype": {
+        "versions": {
+          "0.0.1": "consumeTeletype"
+        }
+      }
+  }
+}

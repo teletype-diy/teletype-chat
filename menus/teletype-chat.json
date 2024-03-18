@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle teletype-chat",
+        "command": "teletype-chat:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "teletype-chat",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "teletype-chat:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
