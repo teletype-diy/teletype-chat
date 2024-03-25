@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "teletype-chat:toggle"
   },
-  "repository": "https://github.com/atom/teletype-chat",
+  "repository": "https://github.com/teletype-diy/teletype-chat",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
