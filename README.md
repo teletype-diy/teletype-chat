@@ -1,5 +1,20 @@
 # teletype-chat package
 
-A short description of your package.
+Want to use chat inside your editor when collaborating over teletype?
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+Now you can.
+
+## Setup
+
+This package is a WIP and for now, you'll have to install it manually:
+
+1. `cd ~/.pulsar/packages/`
+1. `git clone https://github.com/teletype-diy/teletype-chat`
+1. start pulsar, enable `teletype-chat` package in settings
+
+Additionally, you will need to install [teletype-diy](https://github.com/teletype-diy/teletype-diy)
+
+## Usage
+
+1. Connect to a teletype session
+1. Toggle chat with command `Teletype Chat: Toggle`
